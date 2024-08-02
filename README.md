@@ -95,7 +95,15 @@ Installing the next available version (37.431.0) fails to detect this image as a
  INFO: Repository started (repository=local)
        "renovateVersion": "37.431.0"
 ...
-
+DEBUG: Matched 1 file(s) for manager circleci: .circleci/config.yml (repository=local)
+DEBUG: manager extract durations (ms) (repository=local)
+       "managers": {"circleci": 5}
+DEBUG: Found 0 package file(s) (repository=local)
+ INFO: Dependency extraction complete (repository=local)
+       "stats": {"managers": {}, "total": {"fileCount": 0, "depCount": 0}}
+...
+DEBUG: packageFiles with updates (repository=local)
+       "config": {}
 ```
 </details>
 
